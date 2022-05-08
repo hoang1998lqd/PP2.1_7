@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biến, kiểu dữ liệu và toán tử</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 id="tb1h2">Biến, kiểu dữ liệu và toán tử</h2>
+    <form action="">
+        <table class="tinhdiem">
+            <tr>
+                <th colspan="6" id="thbt1">Bài tập 1: Tính điểm môn học</th>
+            </tr>
+            <tr>
+                <th class="subject">Vật lý</th>
+                <th class="subject">Hóa học</th>
+                <th class="subject">Sinh học</th>
+                <th class="subject">Tổng</th>
+                <th class="subject">Trung bình</th>
+            </tr>
+            <tr>
+                <td><input type="text" id="vl" size="4px"></td>
+                <td><input type="text" id="hh" size="4px"></td>
+                <td><input type="text" id="sh" size="4px"></td>
+                <td><input type="text" id="tong" size="4px"></td>
+                <td><input type="text" id="trungbinh" size="4px"></td>
+                <td><input type="button" value="Tính" onclick="tinhToan()" > </td>
+                <td><input type="reset" value="Tính lại"></td>
+            </tr>
+        </table>
+        <table class="temperature">
+<!--            <h2 id="temp"> Bài tập 2: Chuyển đổ C sang độ F</h2>-->
+            <tr>
+                <th colspan="3" id="thbt2">Bài tập 2: Chuyển đổ C sang độ F</th>
+            </tr>
+            <tr>
+                <th id="temp">Độ C</th>
+                <th id="temp">Độ F</th>
+            </tr>
+            <tr>
+                <td><input type="text" id="doc" size="6px"></td>
+                <td><input type="text" id="dof" size="6px"></td>
+                <td><input type="button" value="Convert" onclick="convertTemp()" > </td>
+            <td><input type="reset" value="Tính lại"></td>
+        </table>
+
+        <table class="circle">
+<!--            <h2 id="h2bt3" > Bài tập 3: Tính chu vi và diện tích hình tròn</h2>-->
+                <tr>
+                <th colspan="5" id="thbt3">Bài tập 3: Tính chu vi và diện tích hình tròn</th>
+                </tr>
+            <tr>
+            <th class="tron">Bán kính</th>
+            <th class="tron">Chu vi</th>
+            <th class="tron">Diện tích</th>
+        </tr>
+        <tr>
+            <td><input type="text" id="bankinh" size="4px"></td>
+            <td><input type="text" id="chuvi" size="4px"></td>
+            <td><input type="text" id="dientich" size="4px"></td>
+            <td><input type="button" value="Tính" onclick="calculateCircle()" > </td>
+            <td><input type="reset" value="Tính lại"></td>
+        </tr>
+
+        </table>
+    </form>
+</body>
+<script src="main.js"></script>
+</html>

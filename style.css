@@ -1,0 +1,59 @@
+#tb1h2 {
+    font-family: Cambria;
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+.subject{
+    font-family: Cambria;
+    font-size:15px;
+    color: blue;
+    text-align: left;
+    /*border: solid 2px darkorchid;*/
+}
+#thbt1{
+    font-family: Cambria;
+    font-size:25px;
+    color: violet;
+    text-align: center;
+}
+.tinhdiem{
+    border: solid 2px brown;
+    background: #daff7f;
+    /*width: 50%;*/
+    /*padding: 10px;*/
+    margin: 10px 10px 20px 0px;
+}
+.temperature{
+    border: solid 2px deeppink;
+    background: lightpink;
+    margin: 10px 10px 20px 0px;
+}
+#thbt2{
+    font-family: Cambria;
+    font-size:25px;
+    color: darkblue;
+    text-align: center;
+}
+#temp{
+    font-family: Cambria;
+    font-size:20px;
+    color: olive;
+    text-align: left;
+}
+.circle {
+    border: solid 2px cyan;
+    background: palegoldenrod;
+}
+#thbt3{
+    font-family: Cambria;
+    font-size:25px;
+    color: red;
+    text-align: center;
+}
+.tron {
+    font-family: Cambria;
+    font-size:20px;
+    color: saddlebrown;
+    text-align: left;
+}
