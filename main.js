@@ -1,3 +1,4 @@
+// Tính điểm trung bình
 function tinhToan() {
     let number1 = document.getElementById("vl").value;
     let number2 = document.getElementById("hh").value;
@@ -8,11 +9,13 @@ function tinhToan() {
     document.getElementById("tong").value = sum;
     document.getElementById("trungbinh" ).value = tb.toFixed(2);
 }
+// Chuyển đổi nhiệt độ
 function convertTemp() {
     let c = document.getElementById("doc").value;
     let cv = c * (9 / 5) + 32;
     document.getElementById("dof" ).value = cv;
 }
+//Tính chu vi và diện tích hình tròn
 function calculateCircle () {
     let r = document.getElementById("bankinh").value;
     let p = r * 2 * 3.14;
@@ -20,6 +23,7 @@ function calculateCircle () {
     document.getElementById("chuvi").value = p.toFixed(2);
     document.getElementById("dientich").value = s.toFixed(2);
 }
+// CHuyển đổi tiền tệ
 function convertMoney() {
     let a = 23000;
     let b = 1;
@@ -33,4 +37,29 @@ function convertMoney() {
 
     document.getElementById("Money").value=sum;
     float
+}
+//Làm máy tính cơ bản
+function Phepcong(){
+    let so1 =parseInt(document.getElementById('Nhapso1').value);
+    let so2 = parseInt(document.getElementById('Nhapso2').value);
+    let Result = so1+so2;
+    alert(Result);
+}
+function Pheptru(){
+    let so1 =parseInt(document.getElementById('Nhapso1').value);
+    let so2 = parseInt(document.getElementById('Nhapso2').value);
+    let Result = so1-so2;
+    alert(Result);
+}
+function Phepnhan(){
+    let so1 =parseInt(document.getElementById('Nhapso1').value);
+    let so2 = parseInt(document.getElementById('Nhapso2').value);
+    let Result = so1*so2;
+    alert(Result);
+}
+function Phepchia(){
+    let so1 =parseInt(document.getElementById('Nhapso1').value);
+    let so2 = parseInt(document.getElementById('Nhapso2').value);
+    let Result = so1/so2;
+    alert(Result);
 }
