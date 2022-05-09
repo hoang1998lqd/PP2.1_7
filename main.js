@@ -24,7 +24,6 @@ function convertMoney() {
     let a = 23000;
     let b = 1;
     let c = document.getElementById("from").value;
-
     let mo = document.getElementById("money").value;
     let sum=0;
     if (c == "USD"){
@@ -33,5 +32,5 @@ function convertMoney() {
         sum = b * mo
 
     document.getElementById("Money").value=sum;
+    float
 }
-    // let e = document.getElementById("VN").value || let e = document.getElementById("American")
